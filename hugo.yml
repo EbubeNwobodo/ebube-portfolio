@@ -34,7 +34,7 @@ params:
       - name: Projects
         url: "/projects"
       - name: Resume
-        url: "static/images/Ebube_Nwobodo_resume.docx.pdf" # Place PDF in static folder
+        url: "static/Ebube_Nwobodo_resume.pdf" # Place PDF in static folder
 
   # Social Icons on Home Page
   socialIcons:
