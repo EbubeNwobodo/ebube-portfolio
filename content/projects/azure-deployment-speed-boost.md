@@ -22,15 +22,15 @@ The business needed a way to increase deployment velocity without sacrificing th
 ## The Solution
 I designed and engineered a fully automated cloud-based solution that "shifted left" on configuration and security. The core of this transformation involved three key pillars:
 
-1.  [cite_start]**Infrastructure as Code (IaC):** fully containerized the environment using **Terraform**, moving away from "ClickOps" to reproducible infrastructure[cite: 100].
-2.  **Automated Hooks:** Implemented **Azure Pre and Post-event scripts** to handle application updates automatically. [cite_start]This ensured that database migrations and cache clearing happened instantly upon code push, removing the need for manual admin tasks.
-3.  [cite_start]**Zero-Trust Security:** Integrated **Azure Key Vault** to encrypt data at rest and in transit, automating the injection of secrets during the deployment process.
+1.  **Infrastructure as Code (IaC):** fully containerized the environment using **Terraform**, moving away from "ClickOps" to reproducible infrastructure[cite: 100].
+2.  **Automated Hooks:** Implemented **Azure Pre and Post-event scripts** to handle application updates automatically. This ensured that database migrations and cache clearing happened instantly upon code push, removing the need for manual admin tasks.
+3.  **Zero-Trust Security:** Integrated **Azure Key Vault** to encrypt data at rest and in transit, automating the injection of secrets during the deployment process.
 
 ## Technical Implementation
 The critical breakthrough was the use of custom deployment hooks within the Azure environment. Instead of manually restarting services or clearing buffers, I wrote scripts that trigger automatically during the deployment lifecycle.
 
 ### Architecture Overview
-* [cite_start]**Orchestration:** Kubernetes (AKS) for microservices management[cite: 98].
+* **Orchestration:** Kubernetes (AKS) for microservices management.
 * **Configuration:** Terraform for provisioning and Azure Key Vault for secret management.
 * **Automation:** Custom Shell/PowerShell scripts integrated into the CI/CD pipeline.
 
@@ -46,7 +46,7 @@ echo "Starting Post-Deployment Sequence..."
 
 # 1. Retrieve Secrets Securely from Azure Key Vault
 echo "Fetching database credentials from Azure Key Vault..."
-DB_CONNECTION=$(az keyvault secret show --name "DbConnection" --vault-name "SnapnetKV" --query value -o tsv)
+DB_CONNECTION=$(az keyvault secret show --name "DbConnection" --vault-name "KV-name" --query value -o tsv)
 
 # 2. Run Database Migrations
 # Instead of a DBA running this manually, the script handles it immediately after the artifact lands.
