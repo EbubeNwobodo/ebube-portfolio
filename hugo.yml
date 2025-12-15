@@ -1,4 +1,4 @@
-baseURL: "https://ebubenwobodo.github.io/portfolio/" # CHANGE THIS to your actual URL
+baseURL: "https://ebubenwobodo.github.io/ebube-portfolio/" # CHANGE THIS to your actual URL
 title: "Ebube Nwobodo"
 pagination:
   pagerSize: 5
