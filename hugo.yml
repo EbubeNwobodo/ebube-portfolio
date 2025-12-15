@@ -1,0 +1,68 @@
+baseURL: "https://ebubenwobodo.github.io/portfolio/" # CHANGE THIS to your actual URL
+title: "Ebube Nwobodo"
+paginate: 5
+theme: "PaperMod"
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: "Ebube Nwobodo"
+  description: "Senior Solutions Architect & DevOps Engineer"
+  keywords: [DevOps, Azure, AWS, Kubernetes, Terraform]
+  author: "Ebube Nwobodo"
+  defaultTheme: auto # Allows user to switch Dark/Light mode
+  
+  # The "Hero" section of your site
+  profileMode:
+    enabled: true
+    title: "Ebube Nwobodo"
+    subtitle: "Cloud Solutions Architect | DevOps | DevSecOps"
+    imageUrl: "static/images/IMG_2308.jpg" # Place your photo in static/images/profile.jpg
+    imageTitle: "Ebube Nwobodo"
+    imageWidth: 150
+    imageHeight: 150
+    buttons:
+      - name: Projects
+        url: "/projects"
+      - name: Resume
+        url: "static/images/Ebube Nwobodo resume.docx.pdf" # Place PDF in static folder
+
+  # Social Icons on Home Page
+  socialIcons:
+    - name: linkedin
+      url: "https://linkedin.com/in/ebube-nwobodo"
+    - name: github
+      url: "https://github.com/ebubenwobodo"
+    - name: email
+      url: "mailto:ebubenwobodo@gmail.com"
+
+  # Show "Reading Time" on blog posts
+  ShowReadingTime: true
+  ShowShareButtons: true
+  
+  # Navbar
+  assets:
+    favicon: "<link / abs url>"
+  
+menu:
+  main:
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 10
+    - identifier: blog
+      name: Blog
+      url: /posts/
+      weight: 20
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 30
