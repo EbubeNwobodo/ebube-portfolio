@@ -26,7 +26,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.121.1 # Specify a recent Hugo version
+      HUGO_VERSION: 0.146.0 # Specify a recent Hugo version
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
