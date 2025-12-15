@@ -26,7 +26,7 @@ params:
     enabled: true
     title: "Ebube Nwobodo"
     subtitle: "Cloud Solutions Architect | DevOps | DevSecOps"
-    imageUrl: "static/images/IMG_2308.jpg" # Place your photo in static/images/profile.jpg
+    imageUrl: "/images/IMG_2308.jpg" # Place your photo in static/images/profile.jpg
     imageTitle: "Ebube Nwobodo"
     imageWidth: 150
     imageHeight: 150
@@ -34,7 +34,7 @@ params:
       - name: Projects
         url: "/projects"
       - name: Resume
-        url: "static/Ebube_Nwobodo_resume.pdf" # Place PDF in static folder
+        url: "/Ebube_Nwobodo_resume.pdf" # Place PDF in static folder
 
   # Social Icons on Home Page
   socialIcons:
