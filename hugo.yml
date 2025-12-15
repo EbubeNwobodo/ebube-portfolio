@@ -32,9 +32,9 @@ params:
     imageHeight: 150
     buttons:
       - name: Projects
-        url: /projects
+        url: "https://ebubenwobodo.github.io/ebube-portfolio/projects/"
       - name: Resume
-        url: "/static/Ebube_Nwobodo_resume.pdf" # Place PDF in static folder
+        url: "https://ebubenwobodo.github.io/ebube-portfolio/Ebube_Nwobodo_resume.pdf" # Place PDF in static folder
 
   # Social Icons on Home Page
   socialIcons:
