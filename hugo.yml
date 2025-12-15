@@ -1,6 +1,7 @@
 baseURL: "https://ebubenwobodo.github.io/portfolio/" # CHANGE THIS to your actual URL
 title: "Ebube Nwobodo"
-paginate: 5
+pagination:
+  pagerSize: 5
 theme: "PaperMod"
 
 enableRobotsTXT: true
