@@ -5,7 +5,7 @@ summary: "How I utilized Azure Pre/Post scripts and Terraform to eliminate manua
 tags: ["Azure", "Terraform", "DevOps", "CI/CD", "Automation"]
 weight: 1
 cover:
-  image: "images/icons8-azure-50.png" # Optional: Add an image to static/images/
+  image: "images/icons8-azure-100.png" # Optional: Add an image to static/images/
   alt: "Azure Architecture Diagram"
   caption: "High-Level Automated Deployment Architecture"
 ---
