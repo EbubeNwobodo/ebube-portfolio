@@ -19,6 +19,11 @@ A critical audit revealed that the organization was reacting to security vulnera
 ## The Solution
 I led a "Shift Left" initiative to integrate security checks early in the development lifecycle. By embedding automated scanners into the CI/CD pipeline, we empowered developers to fix vulnerabilities *before* code ever left their machines.
 
+## Business Impact
+1. **58% Decrease in Critical Vulnerabilities:** We significantly reduced the attack surface in production environments.
+2. **Faster Fix Rates:** Developers fixed issues 3x faster because they received feedback instantly during the build process.
+3. **Compliance Ready:** The automated reports satisfied regulatory compliance requirements for software security.
+
 ### Key Tools Implemented
 * **Trivy:** For scanning container images and filesystems for vulnerabilities (CVEs).
 * **Trivy Secret Scanner:** To detect hardcoded secrets or API keys in the source code.
@@ -26,8 +31,6 @@ I led a "Shift Left" initiative to integrate security checks early in the develo
 
 ## Technical Implementation
 I redesigned the Jenkins pipeline to include a mandatory security stage. If a developer attempts to push code with a "Critical" vulnerability, the build fails immediately, providing them with a report on how to fix it.
-
-
 
 ### Code Snippet: Jenkins Security Stage
 *This Groovy script runs inside the Jenkins pipeline. It scans the Docker image and aborts the build if any 'CRITICAL' issues are found.*
