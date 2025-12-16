@@ -4,7 +4,7 @@ date: 2025-05-20
 summary: "How moving from manual portal clicks to Terraform modules reduced environment provisioning time by 30%."
 tags: ["Terraform", "IaC", "Azure", "DevOps", "Automation"]
 cover:
-  image: "https://www.terraform.io/img/docs/intro-terraform-workflow.png" # Standard TF workflow image
+  image: "images/intro-terraform-workflow.png" # Standard TF workflow image
   alt: "Terraform Workflow"
   caption: "Write -> Plan -> Apply"
 ---
