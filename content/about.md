@@ -40,4 +40,4 @@ I am a lifelong learner committed to staying agile in the tech landscape.
 * **CI/CD:** Jenkins, Azure DevOps, GitHub Actions, GitLab CI
 
 ---
-*Ready to optimize your infrastructure? [Check out my projects](/projects) or [download my resume](/Ebube_Nwobodo_Resume.pdf).*
+*Ready to optimize your infrastructure? [Check out my projects](https://ebubenwobodo.github.io/ebube-portfolio/projects/) or [download my resume](https://ebubenwobodo.github.io/ebube-portfolio/Ebube_Nwobodo_Resume.pdf).*
