@@ -1,5 +1,10 @@
 baseURL: "https://ebubenwobodo.github.io/ebube-portfolio/" # CHANGE THIS to your actual URL
 title: "Ebube Nwobodo"
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # <--- This is REQUIRED for Search to work
 pagination:
   pagerSize: 5
 theme: "PaperMod"
@@ -65,9 +70,9 @@ menu:
       weight: 10
     - identifier: blog
       name: Blog
-      url: /posts/
+      url: "https://ebubenwobodo.github.io/ebube-portfolio/posts/"
       weight: 20
     - identifier: search
       name: Search
-      url: /search/
+      url: "https://ebubenwobodo.github.io/ebube-portfolio/search/"
       weight: 30
