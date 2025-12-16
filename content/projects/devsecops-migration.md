@@ -5,7 +5,7 @@ summary: "Implementing automated vulnerability scanning with Trivy and Jenkins t
 tags: ["DevSecOps", "Trivy", "Jenkins", "Security", "Cloud"]
 weight: 3
 cover:
-  image: "images/devsecops-pipeline.png" # Optional placeholder
+  image: "images/7070783-middle.png" # Optional placeholder
   alt: "DevSecOps Pipeline Diagram"
   caption: "Automated Security Gates in the CI/CD Pipeline"
 ---
