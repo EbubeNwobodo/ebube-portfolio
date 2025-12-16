@@ -22,7 +22,7 @@ The business needed a way to increase deployment velocity without sacrificing th
 ## The Solution
 I designed and engineered a fully automated cloud-based solution that "shifted left" on configuration and security. The core of this transformation involved three key pillars:
 
-1.  **Infrastructure as Code (IaC):** fully containerized the environment using **Terraform**, moving away from "ClickOps" to reproducible infrastructure[cite: 100].
+1.  **Infrastructure as Code (IaC):** fully containerized the environment using **Terraform**, moving away from "ClickOps" to reproducible infrastructure.
 2.  **Automated Hooks:** Implemented **Azure Pre and Post-event scripts** to handle application updates automatically. This ensured that database migrations and cache clearing happened instantly upon code push, removing the need for manual admin tasks.
 3.  **Zero-Trust Security:** Integrated **Azure Key Vault** to encrypt data at rest and in transit, automating the injection of secrets during the deployment process.
 
@@ -33,6 +33,14 @@ The critical breakthrough was the use of custom deployment hooks within the Azur
 * **Orchestration:** Kubernetes (AKS) for microservices management.
 * **Configuration:** Terraform for provisioning and Azure Key Vault for secret management.
 * **Automation:** Custom Shell/PowerShell scripts integrated into the CI/CD pipeline.
+
+### Business Impact
+This automation initiative was a turning point for the organization's operational efficiency:
+
+1. **70% Increase in Deployment Speed:** By removing manual steps, we reduced the time-to-market for new features drastically.
+2. **40% Increase in System Reliability:** The new architecture reduced downtime risks by dividing the monolith into microservices running on Azure App Services.
+3. **Enhanced Security:** Achieved a 30% improvement in data security by automating encryption and secret management via Azure Key Vault.
+4. **Cost Reduction:** Operational costs dropped by 25% due to optimized resource allocation and reduced manual labor hours.
 
 ### Code Snippet: Automating the Post-Deployment Logic
 *Below is a sanitized example of the deployment logic used to automate post-deployment health checks and migrations, eliminating the need for manual verification.*
