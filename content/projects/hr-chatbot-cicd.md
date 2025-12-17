@@ -5,7 +5,7 @@ summary: "Architecting a multi-tenant AI chatbot as a standalone microservice to
 tags: ["GitHub Actions", "Kubernetes", "Azure", "Microservices", "AI Integration", "Python"]
 weight: 4
 cover:
-  image: "https://github.githubassets.com/images/modules/site/actions/hero-dots.png" # Placeholder
+  image: "images/icons8-github-500.png" # Placeholder
   alt: "CI/CD Pipeline Visualization"
   caption: "Automated workflow from Code Push to Production"
 ---
