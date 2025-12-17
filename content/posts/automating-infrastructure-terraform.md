@@ -85,4 +85,6 @@ terraform {
 ## Conclusion
 Moving to Terraform wasn't just about saving time; it was about confidence. Now, when we need to spin up a Disaster Recovery (DR) region, it isn't a week-long project of reading documentation and clicking buttons. It's a single command:
 
-`terraform apply -var="region=westus2"`
+```
+terraform apply -var="region=westus2"
+```

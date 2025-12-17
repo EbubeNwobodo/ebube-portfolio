@@ -19,11 +19,6 @@ As the microservices architecture scaled, the volume of generated logs exploded 
 ## The Solution
 I engineered a fault-tolerant logging pipeline designed to decouple log ingestion from storage. By introducing a buffering layer and optimizing the indexing strategy, we achieved high availability and faster queries.
 
-## Business Impact
-1. **Reduced Incident Detection Time by 40%:** The centralized dashboard allowed the NOC team to correlate errors across services instantly.
-2. **Zero Data Loss:** The buffering strategy ensured 100% log delivery even during load spikes.
-3. **Cost Efficiency:** By filtering "noise" logs at the Fluentd level before they reached storage, we reduced storage costs significantly.
-
 ### Key Architecture Decisions
 1.  **Fluentd as the Shipper:** Deployed as a DaemonSet on Kubernetes nodes to collect logs directly from container `stdout`.
 2.  **Kafka Buffer:** Implemented Apache Kafka as an intermediate buffer to handle backpressure during traffic spikes.
@@ -56,3 +51,9 @@ The critical component was configuring **Fluentd** to handle network jitters wit
     overflow_action block
   </buffer>
 </match>
+```
+
+## Business Impact
+1. **Reduced Incident Detection Time by 40%:** The centralized dashboard allowed the NOC team to correlate errors across services instantly.
+2. **Zero Data Loss:** The buffering strategy ensured 100% log delivery even during load spikes.
+3. **Cost Efficiency:** By filtering "noise" logs at the Fluentd level before they reached storage, we reduced storage costs significantly.
