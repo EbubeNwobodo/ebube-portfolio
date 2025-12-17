@@ -63,8 +63,8 @@ The pipeline intelligently routes deployments based on the target environment to
 ```
 
 ## Business Impact
-1. **Accelerated Feedback Loop:** Developers get instant feedback on their code quality via the automated linting stage.
-2. **Reduced HR Workload:** The stable deployment of the chatbot ensures it is always available to answer employee questions, freeing up HR staff.
-3. **Safe Releases:** By separating Staging (ACI) and Production (AKS), we ensure that bugs are caught in the cheap, transient environment before they ever reach the live user base.
+1. **Seamless Integration:** The standalone nature allowed us to add AI capabilities to the legacy HR platform with zero downtime for the main application.
+2. **Reduced HR Toil:** The AI service now autonomously handles Tier-1 policy questions, reducing HR ticket volume.
+3. **Rapid Iteration:** We can now update the AI models multiple times a day without waiting for the main software's weekly release cycle.
 
 Tech Stack: `GitHub Actions, Azure AKS, Azure ACI, Docker, Python, Flake8`.
