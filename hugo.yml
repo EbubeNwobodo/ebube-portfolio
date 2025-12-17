@@ -46,7 +46,7 @@ params:
     - name: linkedin
       url: "https://linkedin.com/in/ebube-nwobodo"
     - name: github
-      url: "https://github.com/ebubenwobodo"
+      # url: "https://github.com/ebubenwobodo"
     - name: email
       url: "mailto:ebubenwobodo@gmail.com"
 
