@@ -1,5 +1,5 @@
 ---
-title: "From ClickOps to GitOps: Automating Infrastructure with Terraform"
+title: "From ClickOps to IaC: Automating Infrastructure with Terraform"
 date: 2025-12-16
 summary: "How moving from manual portal clicks to Terraform modules reduced environment provisioning time by 30%."
 tags: ["Terraform", "IaC", "Azure", "DevOps", "Automation"]
