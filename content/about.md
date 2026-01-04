@@ -20,7 +20,7 @@ I believe reliability isn't an afterthought; it's an architectural decision.
 * **Data-Driven:** You can't improve what you can't measure. I rely heavily on **Dynatrace** and **ELK Stack** to make informed infrastructure decisions.
 
 ### Professional Journey
-Currently, I serve as a **Senior Solutions Architect** at **Latrims Solution**, where I focus on optimizing serverless architectures and AWS Lambda performance. 
+Currently, I serve as a **Senior DevOps Engineer** at **Latrims Solution**, where I focus on optimizing serverless architectures and AWS Lambda performance. 
 
 Previously, I worked with **Snapnet Solutions** and **Tek Experts** , where I led large-scale migrations to Azure and reduced deployment times by up to 70%. My work often involves bridging the gap between development, security, and operations teams to ensure seamless delivery.
 
