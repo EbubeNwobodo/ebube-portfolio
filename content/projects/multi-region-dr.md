@@ -1,6 +1,6 @@
 ---
 title: "Architecting Multi-Region Disaster Recovery for Tier-1 Workloads"
-date: 2025-07-10
+date: 2026-01-04
 summary: "Designing an Active-Active cloud architecture using Azure Site Recovery and Traffic Manager to cut RTO from 6 hours to under 1 hour."
 tags: ["Azure", "Disaster Recovery", "Terraform", "Networking", "Resilience"]
 weight: 5
