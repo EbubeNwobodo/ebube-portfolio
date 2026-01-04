@@ -4,7 +4,7 @@ date: 2025-06-15
 summary: "A practical guide to debugging Kubernetes pods, analyzing logs, and fixing common container startup failures."
 tags: ["Kubernetes", "DevOps", "Troubleshooting", "kubectl", "Debug"]
 cover:
-  image: "https://kubernetes.io/images/docs/pod-lifecycle.png" # Standard K8s Lifecycle image
+  image: "images/1756171251194.png" # Standard K8s Lifecycle image
   alt: "Kubernetes Pod Lifecycle"
   caption: "Understanding where pods fail in the lifecycle"
 ---
