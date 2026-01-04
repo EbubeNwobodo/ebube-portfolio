@@ -1,6 +1,6 @@
 ---
 title: "Kubernetes Troubleshooting: Fixing the Dreaded CrashLoopBackOff"
-date: 2025-06-15
+date: 2026-01-04
 summary: "A practical guide to debugging Kubernetes pods, analyzing logs, and fixing common container startup failures."
 tags: ["Kubernetes", "DevOps", "Troubleshooting", "kubectl", "Debug"]
 cover:
