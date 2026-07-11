@@ -1,6 +1,6 @@
 ---
 title: "DevOps vs. DevSecOps vs. Platform Engineering vs. SRE: Untangling the Confusion"
-date: 2026-07-12
+date: 2026-07-11
 summary: "Four roles, four philosophies, one shared goal: better software delivery. Here's how they actually differ, and where they overlap."
 tags: ["DevOps", "DevSecOps", "Platform Engineering", "SRE", "Career"]
 cover:
